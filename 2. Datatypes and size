@@ -1,0 +1,57 @@
+// Name - Shwetal Koranne
+// PRN - 24070123106
+// Batch - EnTC B2
+// EXP 2
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int a;
+    cout<<"Enter any integer : ";
+    cin >> a;
+    cout << "Integer = " << a << " And the size is : "<< sizeof(a) <<"bytes"<<endl ;
+    
+    float b;
+    cout<<"Enter any decimal number : ";
+    cin >> b;
+    cout << "Decimal = " << b << " And the size is : "<< sizeof(b) <<"bytes"<<endl ;
+    
+    string c;
+    cout<<"Enter any String : ";
+    cin >> c;
+    cout << "String = " << c << " And the size is : "<< sizeof(c) <<"bytes"<<endl ;
+    
+    double d;
+    cout << "Enter any double : ";
+    cin >> d;
+    cout << "Double = " << d << " And the size is : " << sizeof(d) << "bytes" << endl;
+    
+    char e;
+    cout << "Enter any character : ";
+    cin >> e;
+    cout << "Char =  " << e << " And the size is : " << sizeof(e) << "bytes" << endl;
+    
+    bool f;
+    cout << "Enter boolean : ";
+    cin >> f;
+    cout << "Boolean = " << f << " And the size is : " << sizeof(f) <<" bytes "<< endl;
+    
+    return 0;
+}
+
+/* OUTPUT
+Enter any integer : 101
+Integer = 101 And the size is : 4bytes
+Enter any decimal number : 5.6
+Decimal = 5.6 And the size is : 4bytes
+Enter any String : planet
+String = planet And the size is : 32bytes
+Enter any double : 8
+Double = 8 And the size is : 8bytes
+Enter any character : q
+Char =  q And the size is : 1bytes
+Enter boolean : 1
+Boolean = 1 And the size is : 1 bytes 
+*/
